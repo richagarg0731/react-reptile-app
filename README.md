@@ -5,5 +5,5 @@ Goals with Map Page:
 3. if user clicks on a country from the list that includes all countries of a particular species's range (in Reptiles page), then a country is passed to the Map page (accessed from Reptiles.js; result: that country would be highlighted)
 
 Steps:
-npm install
-npm start
+1. npm install
+2. npm start
