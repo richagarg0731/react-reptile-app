@@ -14,14 +14,14 @@ const Reptiles = () => {
         <h3>{reptile.name}</h3>
         <h4> Range &nbsp; &nbsp; 
         	<span className="seeMap">
-        		<NavLink to="map/${reptile.id}">  
+        		<NavLink to=`map/${reptile.id}`>  
         		See Map Here 
         		</NavLink>
         	</span>
         </h4> 
       		{reptile.range.map(function(country,index) {
       			// only add comma if it's not the last one
-   				return <span key={country}><NavLink to="map/{country}"> {(index < reptile.range.length-1)? country+',' : country} </NavLink></span> 
+   				return <span key={country}><NavLink to=`map/${reptile.id}/${country}`> {(index < reptile.range.length-1)? country+',' : country} </NavLink></span> 
    			})
    			}
    		
