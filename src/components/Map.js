@@ -12,7 +12,7 @@ var Map = React.createClass({
     
 	return (
 		<div>
-      		<h2>Reptile passed from props: {this.context.params.reptileId} </h2>
+      		<h2>Reptile passed from props: {this.props.params.reptileId} </h2>
       	</div>
     )
     
