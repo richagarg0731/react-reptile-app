@@ -19,7 +19,7 @@ const routes = (
   	<Route component={App}>
   		<Route path="/" component={Home}/>
   		<Route path="reptiles" name="reptiles" component={Reptiles}/>
-  		<Route path="map/:reptileId" component={Map} name="map" />
+  		<Route path="map/:reptileId(/:countryName)" component={Map} name="map" />
   	</Route>
   </Router>
 );
